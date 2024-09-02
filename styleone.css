@@ -1,0 +1,131 @@
+body {
+    
+    font-family: "Lato", sans-serif;
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+  
+    background-color: #87eba5;
+}
+
+
+div {
+
+  
+    padding: 5px;
+}
+
+header {
+    font-family: "Lato", sans-serif;
+    background-color: #69008c;
+    width: 99%;
+   
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    color: red;
+   
+}
+
+
+h1 {
+    margin-left: 3%;
+    display: block;
+    text-align: left;
+    width: 90%;
+    font-size: 48px;
+    color: rgb(174, 235, 181);
+    
+}
+h2 {
+    display: block;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 36px;
+    color: #69008c;
+   
+    background-color: rgb(236, 255, 238);
+}
+
+a:link {
+    color: rgb(142, 255, 142);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(75, 156, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+
+h3 {
+    font-family: "Lato", sans-serif;
+    position:relative;
+    bottom: 12px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+
+}
+
+h4{
+    
+    font-family: "Lato", sans-serif;
+    padding: 2px;
+    color:#69008c;
+    font-size: 18px;
+    
+    background-color:  rgb(236, 255, 238);
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.box {
+    width: 250px;
+    height: 230px;
+    
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #520863;
+}
+
+.text {
+    font-family: "Lato", sans-serif;
+    
+    color: #ededed;
+    font-size: 16px;
+    
+    
+    background-color: #535353;
+    padding: 5%;
+
+}
+
+.sourcelink {
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    padding-left: 10%;
+    padding-bottom: 15%;
+    margin-bottom: auto;
+}
+
+.sourcelink a {
+    color: #fff;
+    text-decoration: none;
+}
