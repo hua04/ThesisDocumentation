@@ -37,6 +37,7 @@ h1 {
     width: 90%;
     font-size: 48px;
     color: rgb(174, 235, 181);
+    text-indent: 0px;
     
 }
 h2 {
@@ -53,7 +54,7 @@ h2 {
 
     font-size: 36px;
     color: #69008c;
-   
+    text-indent: 0px;
     background-color: rgb(236, 255, 238);
 }
 
@@ -80,7 +81,7 @@ h3 {
     width: 100%;
     font-size: 20px;
     color: white;
-
+    text-indent: 0px;
 }
 
 h4{
@@ -89,13 +90,67 @@ h4{
     padding: 2px;
     color:#69008c;
     font-size: 18px;
-    
+    text-indent: 0px;
     background-color:  rgb(236, 255, 238);
     margin-left: 10px;
     margin-right: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
 
+}
+h5 {
+    font-family: "Lato", sans-serif;
+    position:relative;
+    bottom: 12px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    text-indent: 0px;
+}
+h6 {
+    font-family: "Lato", sans-serif;
+    position:relative;
+    text-indent: 0px;
+    bottom: 12px;
+    margin: 0px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+
+}
+listhead{
+    font-family: "Lato", sans-serif;
+    position:relative;
+    text-indent: 50px;
+    bottom: 12px;
+    margin: 0px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+listcontent{
+    font-family: "Lato", sans-serif;
+    position:relative;
+    text-indent: 0px;
+    bottom: 12px;
+    margin: 0px;
+    margin-left: 100px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+.boxes {
+    display: inline-flex
 }
 
 .box {
