@@ -183,6 +183,14 @@ listcontent{
     
     text-align: center;
     width: 100;
+    
+}
+.sidebysideimages{
+   
+    width: 50%;
+    float: left;
+    text-align: center;
+    
 }
 
 .sourcelink {
