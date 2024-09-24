@@ -206,3 +206,10 @@ listcontent{
     color: #fff;
     text-decoration: none;
 }
+a:link {
+    color: #f360d5;
+  }
+
+a:visited {
+    color: #d399d3;
+  }
